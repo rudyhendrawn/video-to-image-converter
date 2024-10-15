@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "video-tari-image-converter"
+version = "0.1.0"
+description = ""
+authors = ["Rudy Hendrawan <rudyhend@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.10.0.84"
+pandas = "^2.2.3"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
